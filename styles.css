@@ -1,0 +1,113 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+header img {
+    width: auto;
+    height: auto;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    background-color: #ccc;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.3s, cursor 0.3s;
+}
+
+nav a:hover {
+    color: #ff00e1;
+}
+
+nav a[href]:hover {
+    cursor: pointer;
+}
+nav a.active {
+    font-weight: bold;
+    color: black;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    /* Залишаємо колонковий напрямок */
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 120px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* Вирівнювання картки по вертикалі */
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 350px;
+    /* Фіксована ширина */
+    height: 150px;
+    /* Фіксована висота */
+    box-sizing: border-box;
+    background-color: #dfdede;
+}
+
+.card-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Вирівнювання всього контенту */
+    height: 100%;
+    align-items: center;
+    /* Вирівнювання по центру по горизонталі */
+}
+
+.card-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.card img {
+    width: 60px;
+    /* Розмір аватара */
+    height: 60px;
+    border-radius: 50%;
+}
+
+.card h3 {
+    margin: 0;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
