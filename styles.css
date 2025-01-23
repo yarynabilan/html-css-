@@ -40,6 +40,7 @@ nav a.active {
     color: black;
 }
 
+
 .card-container {
     display: flex;
     flex-direction: column;
@@ -107,7 +108,5 @@ footer {
     text-align: center;
     height: 100px;
     line-height: 100px;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
