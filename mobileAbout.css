@@ -1,11 +1,20 @@
 .first-background {
-    background-image: url('media/media.about/mobilebackground.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-background-position: bottom center;
+    background: none;
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-color: rgb(186 219 230);
+    min-height: auto;
+}
+
+.main-image {
+    display: flex;
+    background-image: url('media/media.about/mobilebackground.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    aspect-ratio: 2.2;
+    background-size: cover;
 }
 
 .second-background {

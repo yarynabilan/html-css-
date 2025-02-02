@@ -1,13 +1,18 @@
 .first-background {
     background-image: url('media/media.about/first background.png');
     background-repeat: no-repeat;
-        background-size: contain;
-        background-position: top center;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        min-height: 70vh;
-    }
+    background-size: contain;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 40vh;
+}
+
+.main-image {
+    display: none;
+}
+
 
 .second-background {
     background-image: url('media/media.about/second background.png');
