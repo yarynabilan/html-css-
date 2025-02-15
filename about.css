@@ -5,6 +5,7 @@
     width: auto;
     aspect-ratio: 3.2;
     background-size: cover;
+    font-family: 'Poppins', sans-serif;
     
 }
 
@@ -17,8 +18,8 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
     display: flex;
+    width: 100%;
     flex-direction: column;
     min-height: 100vh;
 }
@@ -26,6 +27,7 @@
 .info-section {
     padding: 40px 0;
     background-color: #f4f4f4;
+    font-family: 'Poppins', sans-serif;
 }
 
 .flex-container-1 {
@@ -43,6 +45,7 @@
 }
 
 .flex-item {
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     flex: 1;
     border-radius: 10px;
@@ -78,27 +81,32 @@ h1 {
 
 h2 {
     text-align: center;
+    padding-top: 15px;
 }
 
 .text-container {
     width: 30%;
     margin: 0 auto;
     padding: 20px 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .text-container p {
     text-align: center;
     margin-bottom: 20px;
     line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
 }
 
 .button-container {
     text-align: center;
     margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .button {
     display: inline-block;
+    margin: 10px;
     padding: 10px 50px;
     color: white;
     background-color: rgb(98, 151, 169);
@@ -106,6 +114,7 @@ h2 {
     border-radius: 20px;
     font-size: 20px;
     transition: background-color 0.3s;
+    font-family: 'Poppins', sans-serif;
 }
 
 .button:hover {

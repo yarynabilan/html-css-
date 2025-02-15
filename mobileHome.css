@@ -1,0 +1,24 @@
+footer {
+    background-color: rgb(101, 159, 155);
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    width: 100%;
+    margin-top: auto;
+    position: relative;
+
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 120px;
+    width: 90%;
+}
+main {
+    flex: 1;
+    /* Робить основний контент динамічним, щоб заповнити залишковий простір */
+}
